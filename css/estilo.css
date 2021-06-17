@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+header { 
+    background-image: url('/img/Fondoazul.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: auto;
+    vertical-align: middle;
+    text-align: center;
+    list-style-type: none;
+}
+
+img.mifoto{
+    width: 150px; height: 150px;
+    vertical-align: middle;
+}
+
+h1 {
+    font-style: normal;
+    font-style: italic;
+    color: black;
+    background-color:#28B5B5;
+    letter-spacing:normal;
+    font-weight: bold;
+    font-size: 35px;
+    text-align: center;
+}
+
+h2 {
+    font-size: 25px;
+}
+
+body {
+    font-size: 25px;
+    background-color:#8FD9A8;
+    line-height: 1.5;
+}
+footer{
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    text-align: center;
+    background-color:#D2E69C;
+    color: black;
+}
