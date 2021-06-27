@@ -1,49 +1,87 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
-body{
-    font-family: 'Roboto', sans-serif;
+* {
+    box-sizing: border-box;
+    margin: 0%;
 }
 
+/* BODY */
+
+body {
+     background-color:#8FD9A8;
+     font-family: 'Roboto', sans-serif;
+     font-size: 25px;
+     line-height: 1.5;
+}
+
+/*HEADER*/
+
 header { 
-    background-image: url('/img/Fondoazul.jpg');
+    background-image: url('/img/Future-is-Creative.png');
     background-repeat: no-repeat;
     background-size: cover;
     height: auto;
-    vertical-align: middle;
-    text-align: center;
     list-style-type: none;
+    padding: 10px;
+    text-align: center;
+    vertical-align: middle;
 }
 
 img.mifoto{
-    width: 150px; height: 150px;
+    border-radius: 50%;
+    padding-bottom: 5px;
     vertical-align: middle;
+    width: 150px; height: 150px;
 }
 
 h1 {
-    font-style: normal;
-    font-style: italic;
+    background-color:#D2E69C;
     color: black;
-    background-color:#28B5B5;
-    letter-spacing:normal;
-    font-weight: bold;
     font-size: 35px;
+    font-style: normal;
+    font-weight: bold;
+    letter-spacing:normal;
     text-align: center;
+}
+
+/*MAIN*/
+
+main{
+    padding-bottom: 50px;
+    padding-top: 20px;
+    padding-left: 25px;
+}
+
+.sobremi {
+    justify-content: center;
 }
 
 h2 {
     font-size: 25px;
 }
 
-body {
-    font-size: 25px;
-    background-color:#8FD9A8;
-    line-height: 1.5;
+dt{
+    padding-left: 20px;
 }
+
+dd{
+    padding-left: 40px;
+}
+
+/* FOOTER*/
+
 footer{
-    font-size: 25px;
-    font-family: 'Times New Roman', Times, serif;
-    font-weight: bold;
-    text-align: center;
     background-color:#D2E69C;
     color: black;
+    display: flex;
+    padding: 20px;
+    justify-content: space-around;
+}
+
+.contacto{
+    font-size: 25px;
+}
+
+.facebook, .instagram, .github{
+    font-size: 40px;
 }
